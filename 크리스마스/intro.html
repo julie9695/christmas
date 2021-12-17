@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+
+        font-family: 'Roboto', sans-serif;
+
+        }
+
+        body{
+            overflow: hidden;
+        }
+        .textt{
+
+
+        color: white;
+    }
+
+    .textt img{
+        width: 250px;
+        animation-name:zz;
+        animation-duration: 1s;
+        animation-direction: initial;
+        /* transition-timing-function: linear; */
+       
+    }
+
+    @keyframes zz {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+
+    }
+
+       /* .textt{
+
+
+     
+      animation-name:fadeInAnimation;
+        animation-duration:  3s;
+        animation-iteration-count:infinite;
+        font-family: 'Pacifico', cursive;
+
+    }
+
+    @keyframes fadeInAnimation {
+      0% {
+         top:80px;
+      }
+      50% {
+         top:110px;
+       }
+       100% {
+         top:100px;
+       }
+    } */
+
+    #gg{
+
+
+        width:1550px;
+        height:900px;
+        margin-top: -40px;
+
+
+    }
+
+    .textt{
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+
+        position: absolute;
+        top: 50px;
+        font-size: 50px;
+        left:660px;
+        text-shadow: 2px 2px #ce0a0a;
+    }
+
+
+    #mouse{
+        position: absolute;
+        top: 304px;
+        width: 577px;
+        height: 410px;
+        left: 495px;
+
+    }
+
+    #mouse:hover{
+        content: url(./musics/mouse2.png);
+        animation-name: FadeIn;
+        animation-duration: 3s;
+        transition-timing-function: linear;
+    }
+
+  
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+    .black{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width:1800px;
+    height:800px;
+    top:0;
+    
+}
+
+
+    </style>
+<body>
+
+    <div class="black"></div>
+    <div class="first"><a href = "index.html"><img src ="./musics/mouse.png" id ="mouse"><a href = "index.html"></a><img src ="./musics/b1.png" id ="gg"></div>
+    <div class ="textt"><img src="https://i.postimg.cc/vmnpYJg2/Artboard-1.png"></div>
+    
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
